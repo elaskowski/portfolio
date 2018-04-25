@@ -4,7 +4,7 @@ import APIKEY from '../../../config';
 class App extends React.Component {
   render() {
     return (
-      <div>${APIKEY}</div>
+      <div>Meow</div>
     );
   }
 }
