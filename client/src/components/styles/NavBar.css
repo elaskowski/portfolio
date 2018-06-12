@@ -1,0 +1,53 @@
+.navbar {
+  list-style-type: none;
+  /* width: 20%; */
+  flex: 30%;
+  background-color: #032733;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: block;
+  color: #c9d0dd;
+  padding: 8px 16px;
+  text-decoration: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.job {
+  display: block;
+  color: #c9d0dd;
+  padding: 8px 16px;
+  text-decoration: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+li a {
+  display: block;
+  color: #c9d0dd;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}

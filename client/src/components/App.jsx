@@ -1,10 +1,19 @@
 import React from 'react';
 import APIKEY from '../../../config';
+import BrowserRouter from 'react-router-dom';
+
+import NavBar from './NavBar.jsx';
+import Portfolio from './Portfolio.jsx';
+
+import './styles/App.css';
 
 class App extends React.Component {
   render() {
     return (
-      <div>Meow</div>
+      <div className="row">
+        <NavBar />
+        <Portfolio />
+      </div>
     );
   }
 }
