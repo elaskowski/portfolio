@@ -16,7 +16,7 @@ class Project extends React.Component {
             <li>Structured efficient database queries for persisting data with MySQL and Sequelize, resulting in fewer queries and fasting lookup times</li>
             <li>Built and launched companion mobile app in Google Play store using React Native, elevating application's audience reach</li>
           </ul>
-          {/* <h5>TECH USED</h5>
+          <h5>TECH USED</h5>
           <div className="tech-title">REACT</div>
           <div className="tech-title">REDUX</div>
           <div className="tech-title">REACT ROUTER</div>
@@ -30,7 +30,9 @@ class Project extends React.Component {
           <div className="tech-title">BABEL</div>
           <div className="tech-title">BABEL</div>
           <div className="tech-title">AWS EC2</div>
-        <Slideshow /> */}
+        </div>
+        <div className="slideshow-div">
+          <Slideshow />
         </div>
       </div>
     );

@@ -1,7 +1,6 @@
 .portfolio {
-  flex: 70%
-  /* margin-left: 25%;
-  margin-right: 5%; */
+  flex: 80%;
+  padding: 15px;
 }
 
 h2 {
@@ -9,7 +8,7 @@ h2 {
   margin-top: 0px;
   color: #032733;
   font-size: 2.5em;
-  padding-top: 50px;
+  padding-top: 35px;
   letter-spacing: 1px;
   font-weight: bold;
 }

@@ -1,9 +1,18 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   font-family: Roboto, Geneva, serif;
   margin: 0px;
+  display: flex;
+  flex-direction: row;
 }
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  /* flex-wrap: wrap; */
 }

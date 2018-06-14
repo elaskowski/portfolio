@@ -1,5 +1,4 @@
 import React from 'react';
-import APIKEY from '../../../config';
 import BrowserRouter from 'react-router-dom';
 
 import NavBar from './NavBar.jsx';
