@@ -36,17 +36,19 @@ class Slideshow extends React.Component {
 
   render() {
     return (
-      <div className="slideshow-container">
-        <div className="slide">
-          <img src={this.state.slides[this.state.currSlide]} style={{ width: '100%' }} />
-          <a className="prev" onClick={this.goToPrev.bind(this)}>&#10094;</a>
-          <a className="next" onClick={this.goToNext.bind(this)}>&#10095;</a>
-          <br />
-          <div style={{ 'text-align': 'center' }}>
-            <span className="dot" onClick={() => this.goToSelect(0)} />
-            <span className="dot" onClick={() => this.goToSelect(1)} />
-            <span className="dot" onClick={() => this.goToSelect(2)} />
-          </div>
+      <div>
+        <div className="slideshow-container">
+        {/* <div className="slide"> */}
+        <img src={this.state.slides[this.state.currSlide]} style={{ width: '100%' }} />
+        <a className="prev" onClick={this.goToPrev.bind(this)}>&#10094;</a>
+        <a className="next" onClick={this.goToNext.bind(this)}>&#10095;</a>
+        <br />
+        {/* </div> */}
+      </div>
+        <div style={{ 'text-align': 'center', padding: '20px' }}>
+          <span className="dot" onClick={() => this.goToSelect(0)} />
+          <span className="dot" onClick={() => this.goToSelect(1)} />
+          <span className="dot" onClick={() => this.goToSelect(2)} />
         </div>
       </div>
     );
