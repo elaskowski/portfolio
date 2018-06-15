@@ -6,9 +6,10 @@
 h2 {
   /* margin-left: 25%; */
   margin-top: 0px;
-  color: #032733;
-  font-size: 2.5em;
+  color: #102959;
+  font-size: 3.5em;
   padding-top: 35px;
   letter-spacing: 1px;
-  font-weight: bold;
+  font-weight: 200;
+  margin-bottom: 20px;
 }
