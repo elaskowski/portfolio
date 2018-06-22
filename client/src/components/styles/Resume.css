@@ -1,0 +1,89 @@
+.resume {
+  flex: 80%;
+  padding: 15px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+.exp-container {
+  margin: auto auto 10px auto;
+  text-align: center;
+  width: 80%;
+  color: #102959;
+  background-color: lightgrey;
+  border: 3px solid #00008017;
+  border-radius: 10px;
+}
+
+.skill-title {
+  font-weight: 200;
+  text-align: center;
+  font-size: 2.3em;
+  color: #102959;
+}
+
+.skill {
+  height: 140px;
+  width: 140px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #00008017;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.skill img {
+  max-width: 80%;
+  max-height: 70%;
+  vertical-align: middle;
+}
+
+.skill .skill-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  opacity: 0.8;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.skill:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px grey;
+}
+
+.skill:hover .skill-text {
+  visibility: visible;
+}
+
+.exp-comp {
+  margin: 3px;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.exp-title {
+  margin: 3px;
+}
+
+@media screen and (max-width: 1450px) {
+  .skills-container {   
+      width: 70%;
+  }
+}
