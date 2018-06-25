@@ -1,8 +1,18 @@
+/* html {
+  height: 100%;
+} */
+
 body {
   font-family: Roboto, Geneva, serif;
   margin: 0px;
   display: flex;
   flex-direction: row;
+  /* height: 100%; */
+}
+
+canvas {
+  display: block;
+  height: 100vh !important;
 }
 
 .row {
@@ -10,4 +20,23 @@ body {
   flex-direction: row;
   width: 100%;
   /* flex-wrap: wrap; */
+}
+
+.masthead-container {
+  background: linear-gradient(#9198e5, #e66465);
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  font-size: 52px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 30px;
+  z-index: -2;
+}
+
+@media screen and (max-width: 800px) {
+  .masthead-container {   
+    font-size: 25px;
+    /* line-height: normal; */
+  }
 }

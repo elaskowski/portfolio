@@ -1,0 +1,72 @@
+.portfolio {
+  flex: 80%;
+  padding: 15px;
+}
+
+h2 {
+  /* margin-left: 25%; */
+  margin-top: 0px;
+  color: #2E3A65;
+  font-size: 3.5em;
+  padding-top: 35px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.rectangle {
+  width: 80%;
+  max-width: 1000px;
+	height: 70%;
+	/* transform: skew(-20deg); */
+  background: #2E3A65;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+}
+
+.bio {
+  color: #c9d0dd;
+  font-family: inherit;
+  font-size: 1.1em;
+  font-weight: 100;
+  flex: 75%;
+  height: 100%;
+  padding: 30px;
+  line-height: 1.5em;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+.headshot {
+  flex: 60%;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image {
+  height: 100%;
+  /* width: 100%; */
+}
+
+@media screen and (max-width: 1400px) {
+  .rectangle {   
+      flex-direction: column;
+  }
+  .image{
+    /* height: 100%; */
+    margin: auto;
+    /* width: 40%; */
+    /* min-width: 180px;
+    min-height: 260px; */
+  }
+  .headshot {
+    /* display: flex; */
+    flex:100%;
+    justify-content: flex-end;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}

@@ -28,7 +28,6 @@ class Project extends React.Component {
           <div className="tech-title">DROPZONE</div>
           <div className="tech-title">CLOUDINARY</div>
           <div className="tech-title">BABEL</div>
-          <div className="tech-title">BABEL</div>
           <div className="tech-title">AWS EC2</div>
         </div>
         <div className="slideshow-div">

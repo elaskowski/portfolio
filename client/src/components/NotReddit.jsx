@@ -4,7 +4,7 @@ import SlideshowNR from './SlideshowNR.jsx';
 
 import './styles/Project.css';
 
-class ProjectNR extends React.Component {
+class NotReddit extends React.Component {
   render() {
     return (
       <div className="proj-container" data-aos="fade-up">
@@ -23,13 +23,8 @@ class ProjectNR extends React.Component {
           <div className="tech-title">NODE JS</div>
           <div className="tech-title">MYSQL</div>
           <div className="tech-title">SEQUELIZE</div>
-          <div className="tech-title">SOCKET.IO</div>
-          <div className="tech-title">PASSPORT</div>
-          <div className="tech-title">DROPZONE</div>
-          <div className="tech-title">CLOUDINARY</div>
+          <div className="tech-title">FIREBASE</div>
           <div className="tech-title">BABEL</div>
-          <div className="tech-title">BABEL</div>
-          <div className="tech-title">AWS EC2</div>
         </div>
         <div className="slideshow-div">
           <SlideshowNR />
@@ -39,4 +34,4 @@ class ProjectNR extends React.Component {
   }
 }
 
-export default ProjectNR;
+export default NotReddit;

@@ -16,16 +16,15 @@
   text-align: center;
   width: 80%;
   color: #102959;
-  background-color: lightgrey;
-  border: 3px solid #00008017;
+  border: 3px solid #abb0c1;
   border-radius: 10px;
 }
 
 .skill-title {
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
   font-size: 2.3em;
-  color: #102959;
+  color: #9198e5;
 }
 
 .skill {
@@ -35,7 +34,7 @@
   flex-shrink: 0;
   justify-content: center;
   align-items: center;
-  border: 3px solid #00008017;
+  border: 3px solid #abb0c1;
   margin: 5px;
   border-radius: 50%;
   background-color: lightgray;

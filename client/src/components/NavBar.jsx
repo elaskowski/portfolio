@@ -7,12 +7,12 @@ class NavBar extends React.Component {
     return (
       <div className="navbar">
         <ul className="navbar-list">
-          <li className="title">EVA LASKOWSKI</li>
-          <li className="job">WEB DEVELOPER</li>
+          {/* <li className="title">EVA LASKOWSKI</li>
+          <li className="job">WEB DEVELOPER</li> */}
           <li className="link"><a href="#home">Home</a></li>
+          <li className="link"><a href="#about">About Me</a></li>
           <li className="link"><a href="#portfolio">Portfolio</a></li>
-          <li className="link"><a href="#skills">Skills & Experience</a></li>
-          <li className="link"><a href="#about">About</a></li>
+          <li className="link"><a href="#skills">Skills</a></li>
           <li className="link"><a href="#contact">Contact</a></li>
         </ul>
       </div>
