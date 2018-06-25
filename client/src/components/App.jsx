@@ -27,7 +27,7 @@ class App extends React.Component {
               'z-index': '10',
               margin: '25%',
             }}
-            >Hello!<br />My name is Eva.<br />Full-Stack Developer.
+            >Hi there!<br />My name is Eva.<br />Full-Stack Developer.
             </div>
             <div style={{ height: '80vh' }}>
               <Particles

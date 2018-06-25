@@ -2,9 +2,6 @@ import express from 'express';
 import path from 'path';
 import middleware from '../middleware';
 
-// router
-
-
 const port = 4200;
 const server = express();
 const db = require('./database/index.js');
