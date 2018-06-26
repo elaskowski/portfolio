@@ -10,6 +10,16 @@ class NotReddit extends React.Component {
       <div className="proj-container" data-aos="fade-up">
         <div>
           <h3>NOTREDDIT</h3>
+          <a href="https://github.com/beeskneez/notreddit">
+            <img
+              className="linkout-icon"
+              src="https://image.flaticon.com/icons/svg/25/25231.svg"
+              style={{
+                height: '30px', width: '30px', 'margin-bottom': '13px', 'padding-left': '15px',
+              }}
+              alt="Link Out Image"
+            />
+          </a>
           <h4>Recreated full-stack application with core functionality of Reddit</h4>
           <ul>
             <li>Designed relational database schema to utilize caching and single-table inheritance to lighten backend load, leading to decreased lookup times</li>

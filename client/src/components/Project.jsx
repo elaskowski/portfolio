@@ -10,6 +10,12 @@ class Project extends React.Component {
       <div className="proj-container">
         <div>
           <h3>RHYME DOCTOR</h3>
+          <a href="https://rhymedoctor.fun/">
+            <img className="linkout-icon" src="https://d30y9cdsu7xlg0.cloudfront.net/png/1167421-200.png" style={{ height: '40px', width: '40px', 'margin-bottom': '15px', 'padding-left': '15px' }} alt="Link Out Image" />
+          </a>
+          <a href="https://github.com/Notorious-NPM/Rhyme-Doctor">
+            <img className="linkout-icon" src="https://image.flaticon.com/icons/svg/25/25231.svg" style={{ height: '30px', width: '30px', 'margin-bottom': '17px'}} alt="Link Out Image" />
+          </a>
           <h4>Lyric composition web and mobile app with custom rhyme search algorithm</h4>
           <ul>
             <li>Designed scalable front-end architecture for user profiles using React and Redux</li>

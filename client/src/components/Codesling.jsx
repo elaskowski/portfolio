@@ -10,6 +10,16 @@ class Codesling extends React.Component {
       <div className="proj-container" data-aos="fade-up">
         <div>
           <h3>CODESLING.IO</h3>
+          <a href="https://github.com/beeskneez/codesling.io-api">
+            <img
+              className="linkout-icon"
+              src="https://image.flaticon.com/icons/svg/25/25231.svg"
+              style={{
+                height: '30px', width: '30px', 'margin-bottom': '13px', 'padding-left': '15px',
+              }}
+              alt="Link Out Image"
+            />
+          </a>
           <h4>Open source, online code-sharing platform</h4>
           <ul>
             <li>Optimized application functionality by finding and fixing bugs that caused application crashes</li>
