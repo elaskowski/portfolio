@@ -94,6 +94,7 @@ const Resume = () => (
         <span className="skill-text">TravisCI</span>
       </div>
     </div>
+    <br /><br />
     <h3 className="skill-title">PROFESSIONAL EXPERIENCE</h3><br />
     <div className="exp-container">
       <h4 className="exp-comp">HACK REACTOR</h4>
@@ -101,7 +102,7 @@ const Resume = () => (
       <h5 className="exp-title">2018 - present</h5>
       <p>Providing technical support for rigorous JavaScript curriculum to enable graduates’ successful careers as software engineers</p>
       <p>Run weekly code reviews to ensure students use best practices & produce production ready code</p>
-      <p>Conduct live-coding lectures on full-stack framworks (React/AngularJS, Node, MySQL/MongoDB</p>
+      <p>Conduct live-coding lectures on full-stack framworks (React/AngularJS/Node/MySQL/MongoDB</p>
     </div>
     <div className="exp-container">
       <h4 className="exp-comp">RED BULL</h4>
